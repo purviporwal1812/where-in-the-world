@@ -1,5 +1,6 @@
 import Countries from "./Countries";
 import Search from "./Search";
+import "../styles/Navbar.css";
 import { useState } from "react";
 const Home = () => {
   const [name, setName] = useState("");
@@ -20,7 +21,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container">
+      <div className={`container  `}>
         <div className="row align-items-center mb-3">
           <div className="col-md-6 d-flex align-items-center">
             <Search name={name} setName={setName} />
@@ -36,7 +37,7 @@ const Home = () => {
               >
                 {selectedContinent}
               </a>
-              <ul className="dropdown-menu dropdown-menu-end">{conArr}</ul>
+              <ul className={`dropdown-menu dropdown-menu-end $`}>{conArr}</ul>
             </div>
           </div>
         </div>
