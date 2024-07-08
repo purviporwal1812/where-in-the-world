@@ -18,7 +18,6 @@ This React-based web app uses a countries REST API to provide users with detaile
 - Search for a country using an `input` field
 - Filter countries by region
 - Click on a country to see more detailed information on a separate page
-- Click through to the border countries on the detail page
 
 ## Links
 
@@ -31,7 +30,11 @@ This React-based web app uses a countries REST API to provide users with detaile
 
 ## Continued development
 
-I plan to add a "Dark Mode" toggle button to improve user experience. This feature will allow users to switch between light and dark themes seamlessly. Implementation will involve adding a toggle button in the UI, managing theme states using CSS variables or state management, and ensuring accessibility and user preference persistence
+Planning to integrate : 
+- "Dark Mode" toggle button to enhance user experience, enabling seamless switching between light and dark themes.
+- Ability for users to click through from a country's detail page to explore its bordering countries, enriching the app's interactive capabilities.
+  
+These enhancements aim to make the website more user-friendly and engaging.
 
 ## Useful resources
 
